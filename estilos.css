@@ -1,0 +1,15 @@
+function tocasom(idelementoaudio){
+    documentos.queryselector(idelementoaudio).play();
+}
+const listadeeteclas=document.queryselectorall('.tecla');
+//para 
+for (let contador= 0;<listadeteclas.length;contador++){
+    const tecla= listadeteclas[contador];
+    const instrumento= tecla.classlist[1];
+    const idaudio= #som_${instrumento};//tample string
+     
+    tecla.onclick=funtion(){
+        tocasom(idaudio);
+
+
+}
